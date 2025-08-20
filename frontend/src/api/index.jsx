@@ -1,6 +1,6 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://task-manager-full-stack-app-n0xi.onrender.com/api",
+  baseURL: process.env.BASE_URL,
 });
 export default api;
